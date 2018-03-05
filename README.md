@@ -1,5 +1,6 @@
-<img align="center" title="Project title" src="readme/galaxyq-TITLE.png">
-
+<p align="center">
+  <img title="Project title" src="readme/galaxyq-TITLE.png">
+</p>
 
 ## Documentation
 
