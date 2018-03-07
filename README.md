@@ -10,7 +10,7 @@ Galaxy quest is a simple point-n-click type of game with a retro look and feel. 
 
 Unfortunately this repository does not contain entire project, and you wont be able to compile the game, as we can only share code made by ourselves. You can use this repository for learning purposes. 
 
-#####Notes:
+**Notes:**
 - This repository does not include the original git commit history.
 - QT Project files are not included.
 
