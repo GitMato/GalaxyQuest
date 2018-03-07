@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HelpDialog</class>
+ <widget class="QDialog" name="HelpDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#HelpDialog {
+	background-color: rgb(17, 18, 32);
+	background-image: url(:/gfx/Assets/helpdialogbg_v2.png);
+	border: 0;
+}</string>
+  </property>
+  <widget class="QPushButton" name="okButton">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>340</y>
+     <width>264</width>
+     <height>49</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#okButton { 
+    background-color: rgba(255, 255, 255, 0);
+	image: url(:/gfx/Assets/DIAgotit.png);
+    border: none; 
+}
+QPushButton#okButton:hover {
+   background-color: rgba(0, 250, 255, 190); 
+}
+QPushButton#okButton:pressed { 
+   background-color: rgba(250, 172, 0, 255); 
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="helpDialogHeader">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>40</y>
+     <width>461</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel { 
+	color: rgb(238, 238, 236);
+	background: transparent;
+}</string>
+   </property>
+   <property name="text">
+    <string>404 Options not found. Here are game tips instead!</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignJustify|Qt::AlignTop</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="helpText1">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>90</y>
+     <width>341</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel { 
+	color: rgb(238, 238, 236);
+	background: transparent;
+}</string>
+   </property>
+   <property name="text">
+    <string>Save 10 ships before 10 are abandoned.
+
+Travel around in the galaxy by clicking the star
+systems.
+Save a ship by clicking end turn after you have
+travelled to a star system marked with a red circle.
+
+Tip: Press End Turn repeatedly to make time pass
+faster.</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignJustify|Qt::AlignTop</set>
+   </property>
+  </widget>
+  <zorder>helpDialogHeader</zorder>
+  <zorder>okButton</zorder>
+  <zorder>helpText1</zorder>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>okButton</sender>
+   <signal>clicked()</signal>
+   <receiver>HelpDialog</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>273</x>
+     <y>352</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>459</x>
+     <y>325</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

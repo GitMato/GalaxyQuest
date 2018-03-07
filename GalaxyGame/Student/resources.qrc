@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/sounds">
+        <file>Assets/space_bgm.mp3</file>
+    </qresource>
+    <qresource prefix="/gfx">
+        <file>Assets/newgame.png</file>
+        <file>Assets/options.png</file>
+        <file>Assets/quit.png</file>
+        <file>Assets/gameotsikko.png</file>
+        <file>Assets/starsystem.png</file>
+        <file>Assets/cursor.png</file>
+        <file>Assets/starsystem29.png</file>
+        <file>Assets/galaxyqbg1.png</file>
+        <file>Assets/game-bg-1.png</file>
+        <file>Assets/starsystem29-blue.png</file>
+        <file>Assets/starsystem29-red.png</file>
+        <file>Assets/starsystem29-white.png</file>
+        <file>Assets/npcship.png</file>
+        <file>Assets/npcship-hover.png</file>
+        <file>Assets/npcship-red.png</file>
+        <file>Assets/npcship-white.png</file>
+        <file>Assets/gameover-otsikko.png</file>
+        <file>Assets/HUDendturn.png</file>
+        <file>Assets/HUDpause.png</file>
+        <file>Assets/HUDquit.png</file>
+        <file>Assets/voititpelin_placeholder.png</file>
+        <file>Assets/GQ-GUI-v4.png</file>
+        <file>Assets/continue.png</file>
+        <file>Assets/gamepausedtitle.png</file>
+        <file>Assets/DIAgotit.png</file>
+        <file>Assets/helpdialogbg_v2.png</file>
+        <file>Assets/playership.png</file>
+    </qresource>
+</RCC>
