@@ -17,6 +17,9 @@ Unfortunately this repository does not contain entire project, and you wont be a
   - [Course information](http://www.tut.fi/opinto-opas/wwwoppaat/opas2017-2018/perus/aineryhmat/Ohjelmistotekniikka/TIE-02401.html) (in Finnish)
 
 ## Game screenshots
+<p align="center">
 
 ![alt text](/readme/galaxyq-shipnames.gif "Ships in game")
 
+
+</p>
