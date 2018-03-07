@@ -6,9 +6,13 @@
 
 ## Introduction
 
-Galaxy quest is a simple point-n-click type of game with retro look and feel. It was written in 2 weeks with C++ as a part of Programming Techniques course. Our job was to program the game logic, graphical user interface and representations of the game objects, while course assistants provided the space ship functionality for the game.
+Galaxy quest is a simple point-n-click type of game with a retro look and feel. It was written in 2 weeks with C++ and QT as a part of Programming Techniques course. Our job was to program the game logic, graphical user interface and representations of the game objects, while course assistants provided the space ship functionality for the game.
 
 Unfortunately this repository does not contain entire project, and you wont be able to compile the game, as we can only share code made by ourselves. You can use this repository for learning purposes. 
+
+#####Notes:
+- This repository does not include the original git commit history.
+- QT Project files are not included.
 
 ## Course information
 
