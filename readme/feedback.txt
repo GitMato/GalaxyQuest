@@ -9,66 +9,65 @@ For:
     Tomi Mannila  (tomi.mannile@student.tut.fi)
 
 
-
 Feedback:
 
- Saitte tyˆst‰nne arvosanaksi 4.
- Tyˆ oli erinomainen ja pidin grafiikasta todella paljon. Olisi kuitenkin kaivannut jonkun lis‰osan tai pient‰ pelattavuuden hiomista parempaan arvosanaan.
+ Saitte ty√∂st√§nne arvosanaksi 4.
+ Ty√∂ oli erinomainen ja pidin grafiikasta todella paljon. Olisi kuitenkin kaivannut jonkun lis√§osan tai pient√§ pelattavuuden hiomista parempaan arvosanaan.
  Arvostelualueet:
 
 SUUNNITTELU
-+ Luokkajako ja luokkien vastuut ovat j‰rkev‰t.
-+ Ohjelmaan on toteutettu erilliset tyypit toiminnallisille osille ja k‰yttˆliittym‰‰n piirrett‰ville kuville.
++ Luokkajako ja luokkien vastuut ovat j√§rkev√§t.
++ Ohjelmaan on toteutettu erilliset tyypit toiminnallisille osille ja k√§ytt√∂liittym√§√§n piirrett√§ville kuville.
 + Toteutettu periytyminen kunnossa.
 - Pelaaja-alusta ei periytetty Ship-luokasta. Omia actioneita ei ole periytetty Action-luokasta.
-+ Omille luokille on kirjoitettu hyv‰t rajapintam‰‰rittelyt.
-+ Rajapintadokumentaatio niin hyv‰, ett‰ siit‰ voidaan generoida ulkopuolinen dokumentaatio.
++ Omille luokille on kirjoitettu hyv√§t rajapintam√§√§rittelyt.
++ Rajapintadokumentaatio niin hyv√§, ett√§ siit√§ voidaan generoida ulkopuolinen dokumentaatio.
 
 TOTEUTUS
-+ Esi- ja j‰lkiehdot + invariantit tarkastetaan Hyvin
++ Esi- ja j√§lkiehdot + invariantit tarkastetaan Hyvin
 + Poikkeukset toteutettu hyvin
-* Invariantin tarkastamista rakentajassa on varsin turhaa, jos siin‰ vain alustetaan muuttujien arvoja.
-+ Poikkeustilanteiden k‰sittely on hoidettu hyvin.
-+ Dynaaminen muistinhallinta on tehty hyvin ‰lykk‰ill‰ osoittimilla.
-+ Hyv‰‰ C++:aa ja olio-ohjelmoinnin periaatteet kunnossa.
-* Luokkien rakentajissa ei ole k‰ytetty alustuslistoja.
-* Olion tilaa muokkaamattomat metodit olisi hyv‰ m‰‰ritell‰ const-avainsanalla
-* Jokaiselle luokan instanssille saman arvon omaavat vakiot olisi hyv‰ m‰‰ritell‰ luokkavakioiksi.
-+ Qt:ta ja sen mekanismeja on k‰ytetty erinomaisesti.
-- K‰‰nt‰j‰ antaa koodista varoituksia. Ne olisi paras k‰yd‰ l‰pi ja siivota pois.
+* Invariantin tarkastamista rakentajassa on varsin turhaa, jos siin√§ vain alustetaan muuttujien arvoja.
++ Poikkeustilanteiden k√§sittely on hoidettu hyvin.
++ Dynaaminen muistinhallinta on tehty hyvin √§lykk√§ill√§ osoittimilla.
++ Hyv√§√§ C++:aa ja olio-ohjelmoinnin periaatteet kunnossa.
+* Luokkien rakentajissa ei ole k√§ytetty alustuslistoja.
+* Olion tilaa muokkaamattomat metodit olisi hyv√§ m√§√§ritell√§ const-avainsanalla
+* Jokaiselle luokan instanssille saman arvon omaavat vakiot olisi hyv√§ m√§√§ritell√§ luokkavakioiksi.
++ Qt:ta ja sen mekanismeja on k√§ytetty erinomaisesti.
+- K√§√§nt√§j√§ antaa koodista varoituksia. Ne olisi paras k√§yd√§ l√§pi ja siivota pois.
 
 TOIMINNALLISUUS
 + Peli toimii siististi.
-+ K‰yttˆliittym‰‰n on selke‰sti n‰hty vaivaa.
-- Pienehkˆ miinus siit‰, ettei pelaajan alus noudata muiden aluksien tapaan rajoituksia liikkumisen tai toimintojen suhteen.
++ K√§ytt√∂liittym√§√§n on selke√§sti n√§hty vaivaa.
+- Pienehk√∂ miinus siit√§, ettei pelaajan alus noudata muiden aluksien tapaan rajoituksia liikkumisen tai toimintojen suhteen.
 
-KOODIN ULKONƒK÷ JA TYYLI
-+ Koodi on kaikinpuolin siisti‰ ja hyvin tehty‰.
+KOODIN ULKON√ÑK√ñ JA TYYLI
++ Koodi on kaikinpuolin siisti√§ ja hyvin tehty√§.
 + Doxygen kommentointi.
-+ Hyvin k‰ytetty vakioita.
-* Poiskommentoitua koodia ei kannata j‰tt‰‰ roikkumaan. Versionhallinta on sit‰ varten, jos halutaan palauttaa aiempia koodip‰tki‰. Muistilistana ok, mutta kunhan nostan esille.
++ Hyvin k√§ytetty vakioita.
+* Poiskommentoitua koodia ei kannata j√§tt√§√§ roikkumaan. Versionhallinta on sit√§ varten, jos halutaan palauttaa aiempia koodip√§tki√§. Muistilistana ok, mutta kunhan nostan esille.
 
-YKSIKK÷TESTAUS
-+ Testit ovat hyvi‰ ja kattavia
-- Yksi testitapaus sis‰lt‰‰ kaikki metodille suoritettavat testit. T‰m‰ vaikeuttaa esimerkiksi virheen aiheuttajan paikantamista.
+YKSIKK√ñTESTAUS
++ Testit ovat hyvi√§ ja kattavia
+- Yksi testitapaus sis√§lt√§√§ kaikki metodille suoritettavat testit. T√§m√§ vaikeuttaa esimerkiksi virheen aiheuttajan paikantamista.
 
 DOKUMENTAATIO
 + Ohjelman luokat ja niiden merkitys kuvataan hyvin.
-+ Dokumentaatio sis‰lt‰‰ ohjeet pelin pelaamiseen (kontrollit, mekaniikat, tavoitteet).
++ Dokumentaatio sis√§lt√§√§ ohjeet pelin pelaamiseen (kontrollit, mekaniikat, tavoitteet).
 + Omasta toteutuksesta laadittu doxygen-dokumentaatio
-+ Ryhm‰n sis‰inen tyˆnjako kuvattu.
-* Luokkakaavio olisi hyv‰ tuki luokkien v‰listen suhteiden kuvaukseen.
++ Ryhm√§n sis√§inen ty√∂njako kuvattu.
+* Luokkakaavio olisi hyv√§ tuki luokkien v√§listen suhteiden kuvaukseen.
 
-VERSIONHALLINNAN KƒYTT÷
-+ Commitit on tehty sopivan pieniss‰ paloissa.
-+ Lokiviestit ovat hyvin selkeit‰ ja kuvaavia.
-+ Versiohistorian perusteella tyˆ jakatunut tasaisesti
+VERSIONHALLINNAN K√ÑYTT√ñ
++ Commitit on tehty sopivan pieniss√§ paloissa.
++ Lokiviestit ovat hyvin selkeit√§ ja kuvaavia.
++ Versiohistorian perusteella ty√∂ jakatunut tasaisesti
 - Git-asetuksia ei ole laitettuna kuntoon kummallakaan.
 
-LISƒOSAT
-Lis‰osa 1: Kartta seuraa pelaajan alusta.
+LIS√ÑOSAT
+Lis√§osa 1: Kartta seuraa pelaajan alusta.
  Ok.
-Lis‰osa 2: Lista l‰hell‰ sijaitsevista aluksista.
- K‰yt‰nnˆss‰ t‰htij‰rjestelm‰ss‰ olevien aluksien lis‰ksi n‰ytet‰‰n l‰hell‰ olevien t‰htij‰rjestelmien aluksia myˆs. Pieni bonus kuitenkin.
-Lis‰osa 3: Itse tehdyt peligrafiikat.
- Ei itsess‰‰n ole koodaamista, mutta huomioiden k‰ytetyn aikam‰‰r‰n ja k‰yttˆliittym‰n tason on lis‰osa pisteiden arvoinen.
+Lis√§osa 2: Lista l√§hell√§ sijaitsevista aluksista.
+ K√§yt√§nn√∂ss√§ t√§htij√§rjestelm√§ss√§ olevien aluksien lis√§ksi n√§ytet√§√§n l√§hell√§ olevien t√§htij√§rjestelmien aluksia my√∂s. Pieni bonus kuitenkin.
+Lis√§osa 3: Itse tehdyt peligrafiikat.
+ Ei itsess√§√§n ole koodaamista, mutta huomioiden k√§ytetyn aikam√§√§r√§n ja k√§ytt√∂liittym√§n tason on lis√§osa pisteiden arvoinen.
