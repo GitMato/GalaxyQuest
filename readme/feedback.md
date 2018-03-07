@@ -5,8 +5,7 @@
 **Date:** 2017-12-30 12:51
 
 **For:**
-    Hanna Enqvist (hanna.enqvist@student.tut.fi)
-    Tomi Mannila  (tomi.mannile@student.tut.fi)
+    Hanna Enqvist, Tomi Mannila
 
 **Feedback:**
 ```
