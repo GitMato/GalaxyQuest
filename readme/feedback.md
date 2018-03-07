@@ -1,19 +1,20 @@
-Course: otekn-2017-2018 - TIE-02400 Ohjelmoinnin tekniikat 2017-2018
+**Course:** otekn-2017-2018 - TIE-02400 Ohjelmoinnin tekniikat 2017-2018
 
-Title: Feedback from teacher
+**Title:** Feedback from teacher
 
-Date: 2017-12-30 12:51
+**Date:** 2017-12-30 12:51
 
-For:
+**For:**
     Hanna Enqvist (hanna.enqvist@student.tut.fi)
     Tomi Mannila  (tomi.mannile@student.tut.fi)
 
+**Feedback:**
+```
+Saitte työstänne arvosanaksi 4.
+Työ oli erinomainen ja pidin grafiikasta todella paljon. Olisi kuitenkin kaivannut jonkun lisäosan 
+tai pientä pelattavuuden hiomista parempaan arvosanaan.
 
-Feedback:
-
- Saitte työstänne arvosanaksi 4.
- Työ oli erinomainen ja pidin grafiikasta todella paljon. Olisi kuitenkin kaivannut jonkun lisäosan tai pientä pelattavuuden hiomista parempaan arvosanaan.
- Arvostelualueet:
+Arvostelualueet:
 
 SUUNNITTELU
 + Luokkajako ja luokkien vastuut ovat järkevät.
@@ -39,17 +40,20 @@ TOTEUTUS
 TOIMINNALLISUUS
 + Peli toimii siististi.
 + Käyttöliittymään on selkeästi nähty vaivaa.
-- Pienehkö miinus siitä, ettei pelaajan alus noudata muiden aluksien tapaan rajoituksia liikkumisen tai toimintojen suhteen.
+- Pienehkö miinus siitä, ettei pelaajan alus noudata muiden aluksien tapaan rajoituksia liikkumisen 
+  tai toimintojen suhteen.
 
 KOODIN ULKONÄKÖ JA TYYLI
 + Koodi on kaikinpuolin siistiä ja hyvin tehtyä.
 + Doxygen kommentointi.
 + Hyvin käytetty vakioita.
-* Poiskommentoitua koodia ei kannata jättää roikkumaan. Versionhallinta on sitä varten, jos halutaan palauttaa aiempia koodipätkiä. Muistilistana ok, mutta kunhan nostan esille.
+* Poiskommentoitua koodia ei kannata jättää roikkumaan. Versionhallinta on sitä varten, jos halutaan 
+  palauttaa aiempia koodipätkiä. Muistilistana ok, mutta kunhan nostan esille.
 
 YKSIKKÖTESTAUS
 + Testit ovat hyviä ja kattavia
-- Yksi testitapaus sisältää kaikki metodille suoritettavat testit. Tämä vaikeuttaa esimerkiksi virheen aiheuttajan paikantamista.
+- Yksi testitapaus sisältää kaikki metodille suoritettavat testit. Tämä vaikeuttaa esimerkiksi virheen 
+  aiheuttajan paikantamista.
 
 DOKUMENTAATIO
 + Ohjelman luokat ja niiden merkitys kuvataan hyvin.
@@ -68,6 +72,9 @@ LISÄOSAT
 Lisäosa 1: Kartta seuraa pelaajan alusta.
  Ok.
 Lisäosa 2: Lista lähellä sijaitsevista aluksista.
- Käytännössä tähtijärjestelmässä olevien aluksien lisäksi näytetään lähellä olevien tähtijärjestelmien aluksia myös. Pieni bonus kuitenkin.
+ Käytännössä tähtijärjestelmässä olevien aluksien lisäksi näytetään lähellä olevien tähtijärjestelmien 
+ aluksia myös. Pieni bonus kuitenkin.
 Lisäosa 3: Itse tehdyt peligrafiikat.
- Ei itsessään ole koodaamista, mutta huomioiden käytetyn aikamäärän ja käyttöliittymän tason on lisäosa pisteiden arvoinen.
+ Ei itsessään ole koodaamista, mutta huomioiden käytetyn aikamäärän ja käyttöliittymän tason on lisäosa 
+ pisteiden arvoinen.
+```
