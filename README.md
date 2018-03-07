@@ -6,7 +6,7 @@
 
 All our code is documented in English and can be reviewed [here](https://people.uta.fi/~he96338/GalaxyQuestDocs/)!
 
-Feedback we received from the teacher can be viewed [here](readme/feedback.txt) (in Finnish)
+Feedback we received from the teacher can be viewed [here](readme/feedback.md) (in Finnish)
 
 ## Introduction
 
