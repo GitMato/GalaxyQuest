@@ -25,3 +25,11 @@ Unfortunately this repository does not contain entire project, and you wont be a
   - Fall 2017, Tampere University of Technology
   - [Course information](http://www.tut.fi/opinto-opas/wwwoppaat/opas2017-2018/perus/aineryhmat/Ohjelmistotekniikka/TIE-02401.html) (in Finnish)
 
+## Screenshots
+<p align="center">
+  
+  <img title="Start screen" src="readme/galaxyq.png">
+  
+  <img title="Start screen" src="readme/galaxygame-ui.png">
+  
+</p>
